@@ -11,14 +11,13 @@ export default function PokemonCard({id, name, image, types}) {
       
 
       <div className="flex items-center justify-center py-2">
-        <Image
-          src={image}
-          alt={name}
-          width={150}
-          height={160}
-          className="transition-transform duration-300 group-hover:scale-110"
-        />
-      </div>
+     <img
+       src={image}
+        alt={name}
+        width={150}
+        height={160}
+     />
+</div>
 
 
       <h2 className="mt-4 text-xl font-bold text-center text-gray-500">
